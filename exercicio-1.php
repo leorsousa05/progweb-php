@@ -22,11 +22,12 @@ Coloque dados nestas variáveis/constantes e faça com que o script mostre no HT
 </head>
 <body>
     <?php
-        const data = "26/04/2022";
+        date_default_timezone_set('UTC');
+        $data = date("j/m/y");
         const name = "Leonardo";
-        const age = 18;
+        $age = 18;
         const city = "São Paulo";
     ?>
-    <p>Hoje é <?=data?>. <?=name?> tem <?=age?> e nasceu em <?=city?></p>
+    <p>Hoje é <?=$data?>. <?=name?> tem <?=$age?> e nasceu em <?=city?></p>
 </body>
 </html>
