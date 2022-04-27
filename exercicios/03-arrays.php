@@ -34,11 +34,27 @@
         ]
     ?>
 
+    <p>O curso de <?=$curso["nome"]?> tem <?=$curso["carga_horaria"]?> horas </p>
+
+    <hr>
+
+    <h2>Função de debug/depuração</h2>
+
+    <pre>
+        <?=print_r($cursos)?>
+    </pre>
+
+    <pre>
+        <?=var_dump($cursos)?>
+    </pre>
+
     <h3>Acessando os dados</h3>
     <p>
         O curso de <?=$curso["nome"]?> tem
         <?=$curso["carga_horaria"]?> horas
     </p>
+
+
 
 
 </body>
