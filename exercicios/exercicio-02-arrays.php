@@ -20,6 +20,7 @@ Desafio: destaque estes blocos de conteúdo usando CSS. -->
             height: 100vh; 
             width: 100vw; 
             overflow-x: hidden;
+            overflow-y: hidden;
             background: linear-gradient(156deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(66,66,66,1) 100%);
         }
 
