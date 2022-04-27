@@ -16,7 +16,12 @@ Desafio: destaque estes blocos de conteúdo usando CSS. -->
     <title>Exercicio 2</title>
     <style>
         html {font-family: sans-serif;}
-        body {height: 100vh; width: 100vw; overflow-x: hidden;}
+        body {
+            height: 100vh; 
+            width: 100vw; 
+            overflow-x: hidden;
+            background: linear-gradient(156deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(66,66,66,1) 100%);
+        }
 
         div {
             display: grid;
@@ -31,18 +36,21 @@ Desafio: destaque estes blocos de conteúdo usando CSS. -->
 
         table{
             border-collapse: collapse;
-            border: 1px solid black;
         }
 
         th {
             background-color: wheat;
             border-collapse: collapse;
-            border: 1px solid black;
             padding: 4px;
         }
 
         tr {border: 1px solid black;}
-        td {border: 1px solid black; padding: 4px;}
+
+        td {
+            border: 1px solid black; 
+            padding: 4px;
+            background-color: white;
+        }
 
     </style>
 </head>
