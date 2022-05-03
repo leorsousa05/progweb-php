@@ -68,6 +68,30 @@ for ($i = 1; $i <= 3; $i++) {
 
     </ol>
 
+    <h2>foreach (para cada)</h2>
+    <p>loop exclusivo para Arrays</p>
+
+    <ol>
+        <?php foreach(meses as $mes) {?>
+        <li> <?=$mes?> </li>
+        <?php }; ?>
+    </ol>
+
+    <?php 
+        $curso = [
+            "nome" => "Programador Web",
+            "carga_horaria" => 240,
+            "unidade" => "Penha",
+            "ucs" => 5
+        ];
+
+        foreach($curso as $key => $value) {
+    ?>
+
+    <p> <?=$dados?> <?=$valor?>  </p>
+
+    <?php } ?>
+
 
 </body>
 </html>
