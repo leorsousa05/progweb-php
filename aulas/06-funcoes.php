@@ -65,10 +65,10 @@ function number_mask(float $number, int $casasDecimais):string {
 ?>
 
 <ul>
-    <li>Preço: <?=number_mask($preco)?></li>
-    <li>Desconto: <?=number_mask($desconto)?></li>
-    <li>Salário Mínimo: <?=number_mask($salarioMinimo)?></li>
-    <li>Novo salário: <?=number_mask($novoSalario)?></li>
+    <li>Preço: <?=number_mask($preco, 2)?></li>
+    <li>Desconto: <?=number_mask($desconto, 2)?></li>
+    <li>Salário Mínimo: <?=number_mask($salarioMinimo, 2)?></li>
+    <li>Novo salário: <?=number_mask($novoSalario, 2)?></li>
 </ul>
 
 <h2>Indução de tipos de dados</h2>
